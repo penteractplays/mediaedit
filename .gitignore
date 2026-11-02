@@ -1,0 +1,15 @@
+# Arbetsmaterial per video (stora filer, ska inte in i git)
+projects/*
+!projects/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Modeller och cache
+.cache/
+*.nemo
+
+# OS
+.DS_Store

@@ -1,0 +1,4 @@
+# Transkribering (välj ett):
+faster-whisper>=1.0        # fungerar överallt (CPU/GPU)
+# parakeet-mlx>=0.3        # Apple Silicon, snabbast lokalt: pip install parakeet-mlx
+# nemo_toolkit[asr]        # NVIDIA GPU (Linux/Windows)
